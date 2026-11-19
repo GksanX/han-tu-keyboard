@@ -1,5 +1,10 @@
 # Lịch sử thay đổi
 
+## 0.2.3
+
+- Sau khi cập nhật, bàn phím báo gọn "Đã cập nhật lên …" một lần, chạm để xem thay đổi.
+- Bỏ công tắc Giản/Phồn trùng lặp trong app; đổi bằng cách bấm giữ phím 漢/汉 trên bàn phím.
+
 ## 0.2.2
 
 - Tự cập nhật: bàn phím hỏi một lần; đồng ý thì khi có Wi-Fi app tự tải và cài bản mới lúc bạn không gõ phím (Android 12+ không cần bấm xác nhận).
