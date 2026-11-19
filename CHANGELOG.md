@@ -1,5 +1,9 @@
 # Lịch sử thay đổi
 
+## 0.2.4
+
+- Không tự cài ngầm nữa: khi có Wi-Fi app tải sẵn bản mới rồi báo ở thanh trạng thái, chạm vào mới cài (Android hỏi xác nhận). Bỏ quyền cài không cần xác nhận.
+
 ## 0.2.3
 
 - Sau khi cập nhật, bàn phím báo gọn "Đã cập nhật lên …" một lần, chạm để xem thay đổi.

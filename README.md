@@ -27,8 +27,8 @@ Yêu cầu Android 9 trở lên.
 
 ## Cập nhật
 
-- **Tự động:** lần đầu dùng, bàn phím hỏi gọn "Tự cập nhật khi có Wi-Fi?". Chọn Đồng ý (và bật quyền cài ứng dụng một lần) là xong:
-  có bản mới, app tự tải và cài lúc bạn không gõ phím. Có thể tắt hoặc bấm "Kiểm tra bản mới" trong app Bộ gõ Hán.
+- **Báo bản mới:** lần đầu dùng, bàn phím hỏi gọn "Báo khi có bản mới?". Chọn Đồng ý: khi có Wi-Fi app tải sẵn bản mới
+  rồi báo ở thanh trạng thái; chạm thông báo rồi xác nhận là cài xong. Có thể tắt hoặc bấm "Kiểm tra bản mới" trong app.
 - **Tự tải:** tải APK mới ở mục Releases rồi mở để cài đè. Lịch sử gõ và tùy chọn được giữ nguyên.
 - **Obtainium:** thêm địa chỉ trang này vào [Obtainium](https://github.com/ImranR98/Obtainium) để được báo bản mới tự động.
 
