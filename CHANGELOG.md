@@ -1,5 +1,9 @@
 # Lịch sử thay đổi
 
+## 0.2.1
+
+- Biểu tượng app mới: chữ 漢 nét Khải, lấy từ font kèm theo.
+
 ## 0.2.0
 
 Bản phát hành đầu tiên.
