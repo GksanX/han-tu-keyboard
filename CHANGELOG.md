@@ -1,5 +1,10 @@
 # Lịch sử thay đổi
 
+## 0.2.2
+
+- Tự cập nhật: bàn phím hỏi một lần; đồng ý thì khi có Wi-Fi app tự tải và cài bản mới lúc bạn không gõ phím (Android 12+ không cần bấm xác nhận).
+- Báo lỗi trong app: mô tả, ảnh chụp màn hình tự chọn, thông tin máy ẩn danh và lỗi văng app gần nhất, gửi qua email sau khi bạn xem lại.
+
 ## 0.2.1
 
 - Biểu tượng app mới: chữ 漢 nét Khải, lấy từ font kèm theo.
