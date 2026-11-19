@@ -20,10 +20,12 @@ Phi lợi nhuận, miễn phí, không quảng cáo, không thu thập dữ li�
 
 1. Vào mục [Releases](../../releases/latest), tải tệp `han-tu-ime-….apk`.
 2. Mở tệp vừa tải. Nếu Android hỏi, cho phép trình duyệt (hoặc trình quản lý tệp) cài ứng dụng.
-   Play Protect có thể cảnh báo vì app không qua Google Play; chọn cài tiếp.
+   Play Protect có thể cảnh báo (xem lý do bên dưới); chọn "Chi tiết" rồi "Vẫn cài đặt".
 3. Mở app **Bộ gõ Hán**, bấm "Bật bàn phím trong Cài đặt", rồi "Chọn Bộ gõ Hán để gõ".
 
 Yêu cầu Android 9 trở lên.
+
+**Về cảnh báo của Google Play Protect:** khi cài hoặc cập nhật, Play Protect có thể báo "ứng dụng có hại" hoặc chặn cài đặt. Lý do: Bộ gõ Hán là bàn phím (thấy được chữ gõ), có quyền mạng để cập nhật và không phát hành qua Google Play, nên bị nghi theo dấu hiệu chứ không phải do phát hiện mã độc. Chữ bạn gõ không bao giờ được gửi đi ([chính sách quyền riêng tư](PRIVACY.md)). Nếu gặp cảnh báo, chọn "Chi tiết" rồi "Vẫn cài đặt".
 
 ## Cập nhật
 

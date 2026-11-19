@@ -1,5 +1,9 @@
 # Lịch sử thay đổi
 
+## 0.2.5
+
+- Trước mỗi lần cài bản mới, app giải thích vì sao Google Play Protect có thể cảnh báo và cách cài tiếp.
+
 ## 0.2.4
 
 - Không tự cài ngầm nữa: khi có Wi-Fi app tải sẵn bản mới rồi báo ở thanh trạng thái, chạm vào mới cài (Android hỏi xác nhận). Bỏ quyền cài không cần xác nhận.
