@@ -18,7 +18,7 @@ Phi lợi nhuận, miễn phí, không quảng cáo, không thu thập dữ li�
 
 ## Cài đặt
 
-1. Vào mục [Releases](../../releases/latest), tải tệp `han-tu-ime-….apk`.
+1. Vào [hantu.wiki/bo-go](https://hantu.wiki/bo-go) bấm **Tải APK**, hoặc vào mục [Releases](../../releases/latest) tải tệp `han-tu-ime.apk`.
 2. Mở tệp vừa tải. Nếu Android hỏi, cho phép trình duyệt (hoặc trình quản lý tệp) cài ứng dụng.
    Play Protect có thể cảnh báo (xem lý do bên dưới); chọn "Chi tiết" rồi "Vẫn cài đặt".
 3. Mở app **Bộ gõ Hán**, bấm "Bật bàn phím trong Cài đặt", rồi "Chọn Bộ gõ Hán để gõ".
