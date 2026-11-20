@@ -12,7 +12,7 @@ Bản phát hành đầu tiên.
 - **Vi** gõ tiếng Việt như Unikey, **EN** gõ tiếng Anh không dấu. Ở hai thế này thanh gợi ý ẩn đi cho rộng chỗ.
 - Nút gạt **Chỉ Pinyin** trên thanh gợi ý ở thế Hán, cho người chỉ gõ Pinyin.
 - Pinyin cho người biết tiếng Trung: từ thông dụng lên trước (shi → 是, women → 我们), có cả từ hiện đại (微信, 二维码, 网红…) và hơn 22.000 chữ chưa có nghĩa tiếng Việt.
-- Thanh gợi ý ba tầng: Hán-Việt, chữ Hán, Pinyin. Bấm giữ một chữ để xem từ điển gọn; nghĩa đầy đủ cho 18.700 chữ và 113.211 từ ghép.
+- Thanh gợi ý ba tầng: Hán-Việt, chữ Hán, Pinyin. Bấm giữ một chữ để xem từ điển gọn; nghĩa đầy đủ cho 18.414 chữ và 105.123 từ ghép.
 - Bấm giữ a e i o u v để gõ Pinyin có dấu. Ba trang ký hiệu, có trang dấu câu Trung văn.
 - Font Khải thư kèm theo, hiện được cả chữ hiếm.
 - Hướng dẫn nhanh khi mở app; sau mỗi lần cập nhật, bàn phím hiện bảng "Có gì mới".
