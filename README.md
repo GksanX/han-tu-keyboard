@@ -8,9 +8,12 @@ Phi lợi nhuận, miễn phí, không quảng cáo, không thu thập dữ li�
 ## Tính năng
 
 - Gõ `nhaan` ra 人, `xuexi` ra 学习, `trungquoc` ra 中國; gõ tiếng Việt bình thường xen giữa.
-- Thanh ứng viên hiện âm Hán-Việt ở trên, chữ Hán ở giữa, Pinyin ở dưới.
-- Bấm giữ một ứng viên để xem từ điển: bộ thủ, số nét, lục thư, nghĩa, nguồn gốc chữ, chữ thành phần.
-- Đổi Phồn ↔ Giản bằng cách bấm giữ phím 漢/汉.
+- Gõ liền cả cụm (`nhanduyen` → 因緣, `duibuqi` → 对不起): bàn phím tự tách âm và đưa từ ghép lên đầu.
+- Pinyin xếp theo tần suất tiếng Trung hiện đại, gõ được cả chữ và từ chưa có nghĩa tiếng Việt.
+- Phím thế: chạm để đổi chữ Latin ↔ chữ Hán. Bấm giữ: Vi (Telex như Unikey) ↔ EN ở chữ Latin; Phồn ↔ Giản ở chữ Hán.
+- Nút gạt **Chỉ Pinyin** trên thanh gợi ý, cho người chỉ gõ Pinyin.
+- Thanh gợi ý hiện âm Hán-Việt ở trên, chữ Hán ở giữa, Pinyin ở dưới.
+- Bấm giữ một chữ gợi ý để xem từ điển: bộ thủ, số nét, lục thư, nghĩa, nguồn gốc chữ, chữ thành phần.
 - Bấm giữ a e i o u v để chọn chữ Pinyin có dấu (ā á ǎ à, ü).
 - Trang ký hiệu riêng cho dấu câu Trung văn: 。，、「」『』《》…
 - Font chữ Hán kèm theo (Khải thư), hiện được cả chữ hiếm.

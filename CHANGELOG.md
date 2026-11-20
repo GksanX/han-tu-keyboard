@@ -1,5 +1,24 @@
 # Lịch sử thay đổi
 
+## 0.2.6
+
+- Phím thế mới, bàn phím nhớ lựa chọn của bạn:
+  - **Chạm**: đổi giữa chữ Latin và chữ Hán.
+  - **Bấm giữ**: Vi ↔ EN ở chữ Latin; Phồn ↔ Giản ở chữ Hán.
+- **Vi** gõ tiếng Việt như Unikey, không hiện chữ Hán. Chữ tiếng Anh (google, facebook…) ra đúng như đã gõ. Gõ lặp phím để bỏ dấu: iss → is.
+- **EN** gõ tiếng Anh, không bỏ dấu.
+- Ở Vi và EN, thanh gợi ý ẩn đi cho rộng chỗ.
+- Nút gạt **Chỉ Pinyin** trên thanh gợi ý ở thế Hán: bật thì chỉ gõ Pinyin, tắt thì gõ được cả âm Hán-Việt.
+- Gõ liền cả cụm từ, không cần cách: nhanduyen → 因緣, duibuqi → 对不起. Chữ đang gõ hiện gọn, không còn nhảy lung tung.
+- Pinyin tốt hơn cho người biết tiếng Trung:
+  - Từ thông dụng lên trước (shi → 是, women → 我们, keneng → 可能).
+  - Thêm khoảng 28.600 từ mới (微信, 二维码, 网红…) và 22.500 chữ gõ bằng Pinyin.
+  - Thế Giản ra đúng chữ Giản (因为, 著名), thế Phồn ra chữ Phồn thông dụng (因為, 線).
+  - Sửa âm đọc sai của nhiều từ (如何, 直接, 立刻…).
+- Hướng dẫn nhanh khi mở app, vuốt qua từng trang; sau mỗi lần cập nhật, bàn phím hiện bảng "Có gì mới" như bảng này.
+- Sửa: Báo lỗi không mở được Gmail trên một số máy Xiaomi.
+- Sửa: ở thế Hán, gõ chữ tiếng Anh hay tên riêng rồi bấm cách không còn bị chèn chữ Hán ngoài ý muốn.
+
 ## 0.2.5
 
 - Trước mỗi lần cài bản mới, app giải thích vì sao Google Play Protect có thể cảnh báo và cách cài tiếp.
