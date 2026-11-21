@@ -1,5 +1,11 @@
 # Lịch sử thay đổi
 
+## 0.2.8
+
+- Bổ sung giải nghĩa tiếng Việt súc tích cho **18.320** thuật ngữ Phật học ngay trên dòng ứng viên và thẻ từ điển (**149.067** mục từ điển chi tiết).
+- Hoàn thiện bộ cài tự bung cho **Linux x86_64** (HanTuIME-linux-x86_64.run): tự cài phông chữ Hán, tương thích GNOME 45–51 và khởi động lại nền fcitx5 an toàn mà không làm mất bộ gõ mặc định.
+- Thu gọn gói phát hành Windows, loại bỏ các tệp siêu dữ liệu thừa.
+
 ## 0.2.7
 
 - Đổi tên ứng dụng thành **Bộ gõ Hán Việt** và cập nhật ghi công tác giả (**Hue Hung, Claude & Gemini**).

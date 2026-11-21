@@ -2,7 +2,7 @@
 
 Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fcitx5`**) cho phép gõ **âm Hán-Việt (Telex)**, **Pinyin** và **tiếng Việt** mượt mà ngay trên cùng một dòng mà không cần chuyển bộ gõ. Hỗ trợ cả **Phồn thể** lẫn **Giản thể**, tích hợp từ điển chiết tự và thuật ngữ Phật học ngay tại con trỏ.
 
-- **Kho dữ liệu đi kèm:** `40.914` chữ đơn · `155.896` từ ghép · `148.985` mục giải nghĩa chi tiết.
+- **Kho dữ liệu đi kèm:** `40.914` chữ đơn · `155.896` từ ghép · `149.067` mục giải nghĩa chi tiết.
 - **Nguyên tắc:** Phi lợi nhuận · Miễn phí · Không quảng cáo · Chạy 100% ngoại tuyến, không thu thập dữ liệu.
 - **Tác giả:** Hue Hung, Claude & Gemini · **Trang chính:** [hantu.wiki](https://hantu.wiki) · **Trang tải:** [hantu.wiki/bo-go](https://hantu.wiki/bo-go)
 

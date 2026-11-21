@@ -21,6 +21,7 @@ Jigmo đi kèm đã được thu gọn, chỉ giữ những chữ có trong kho 
 - **[Unihan](https://www.unicode.org/charts/unihan.html)** (Unicode, Inc.): [Unicode License v3](https://www.unicode.org/license.txt).
   Dùng cho âm đọc, bộ thủ và số nét.
 - Âm Hán-Việt, nghĩa chữ đơn, lục thư và nguồn gốc chữ: kho từ điển của dự án Hán Tự.
+- Thuật ngữ và tóm tắt nghĩa Phật học: tổng hợp và biên tập rút gọn từ *Phật Quang Đại Từ Điển* (HT. Thích Quảng Độ dịch) và *Từ điển Tổng hợp Phật học* phục vụ mục đích học tập, tra cứu phi lợi nhuận.
 
 ### Dữ liệu tiếng Trung cho Pinyin
 
