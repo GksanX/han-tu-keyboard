@@ -2,17 +2,16 @@
 
 Bộ gõ Hán, tác giả: Hue Hung and Claude.
 
-Bản Android (tệp APK) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó. Bản Windows chưa phát hành; danh sách thư viện của bản đó sẽ bổ sung khi phát hành.
+Bản Android (`han-tu-ime.apk`) và bản Windows (`HanTuIME-win-Setup.exe`, `han-tu-ime-windows.zip`) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó.
 
 ## Font
 
 | Font | Tác giả | Giấy phép | Dùng cho |
 |---|---|---|---|
-| [LXGW WenKai TC](https://github.com/lxgw/LxgwWenkaiTC) 1.530 | LXGW | [SIL Open Font License 1.1](https://openfontlicense.org) | Font chính của bàn phím |
+| [LXGW WenKai TC](https://github.com/lxgw/LxgwWenkaiTC) 1.530 | LXGW | [SIL Open Font License 1.1](https://openfontlicense.org) | Font chính của bộ gõ |
 | [Jigmo](https://kamichikoichi.github.io/jigmo/) 2025-09-12 | Kamichi Koichi | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Chữ hiếm font chính thiếu |
 
-Jigmo trong APK đã được thu gọn, chỉ giữ những chữ có trong kho từ điển. Toàn văn giấy phép của hai font nằm trong APK
-(`assets/fonts/LXGWWenKaiTC-OFL.txt`, `assets/fonts/Jigmo-LICENSE.txt`).
+Jigmo đi kèm đã được thu gọn, chỉ giữ những chữ có trong kho từ điển. Toàn văn giấy phép của hai font nằm trong gói cài (`assets/fonts/` trên Android, thư mục `fonts/` trên Windows: `LXGWWenKaiTC-OFL.txt`, `Jigmo-LICENSE.txt`).
 
 ## Dữ liệu từ điển
 
@@ -45,7 +44,15 @@ Bản quyền: wordfreq © 2022 Robyn Speer; THUOCL © 2018 THUNLP; phrase-pinyi
 
 ## Mã nguồn bên thứ ba
 
+### Lõi bộ gõ và bản Android
+
 Lõi bộ gõ viết bằng Rust, dùng các thư viện mã nguồn mở theo giấy phép MIT, Apache-2.0, Zlib và Unicode-3.0:
 bytes, cesu8, cfg-if, combine, equivalent, foldhash, hashbrown, indexmap, itoa, jni, jni-sys, log, memchr, serde,
 serde_json, thiserror, tinyvec, unicode-ident, unicode-normalization, zmij (cùng các thư viện dựng mã proc-macro2,
 quote, syn). Danh sách lấy từ `cargo metadata` của bản 0.2.0.
+
+### Bản Windows
+
+- **Giao diện cài đặt:** dùng [Slint](https://slint.dev) 1.19 theo giấy phép [Slint Royalty-free Desktop, Mobile, and Web Applications License 2.0](https://slint.dev/royalty-free-license) (`LicenseRef-Slint-Royalty-free-2.0`, có kèm mục `AboutSlint` trong tab Hệ thống).
+- **Bộ cài và tự cập nhật:** dùng [Velopack](https://velopack.io) 1.2.161 theo giấy phép [MIT](https://opensource.org/license/mit).
+- **Thư viện hệ thống và phụ trợ Rust:** dùng `windows` / `windows-*` (MIT OR Apache-2.0) cùng các thư viện đồ họa, văn bản, mạng và nén phụ trợ của Slint và Velopack theo các giấy phép mã nguồn mở: MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, Zlib, Unicode-3.0, Unlicense, 0BSD, BSL-1.0, CC0-1.0 và CDLA-Permissive-2.0.
