@@ -6,7 +6,7 @@
 - Mở rộng kho dữ liệu đi kèm lên **40.914** chữ đơn, **155.896** từ ghép và **148.985** mục từ điển chi tiết.
 - Bổ sung **18.806** thuật ngữ Phật học (nhanduyen → 因緣, batnha → 般若…) từ Từ điển Phật Quang và Tổng hợp Phật học.
 - Sửa lỗi lịch sử chọn chữ đơn làm đè ứng viên từ ghép khi gõ liền cả cụm.
-- Phát hành đồng bộ thêm bản máy tính cho **Windows** (HanTuIME-win-Setup.exe) và **Linux** (fcitx5 + GNOME):
+- Phát hành đồng bộ thêm bản máy tính cho **Windows** (HanTuIME-win-Setup.exe) và **Linux x86_64** (HanTuIME-linux-x86_64.run cho fcitx5 + GNOME 45+):
   - Cửa sổ cài đặt dùng chung 6 mục (Cơ bản, Giao diện, Phím tắt, Hướng dẫn, Thông tin, Báo lỗi), kéo giãn góc để phóng cỡ chữ.
   - 3 chủ đề giấy kinh đồng bộ Sáng / Tối: **Phật Quang**, **Dấu Son**, **Thiền Ngọc**.
   - Bảng chọn chữ nhiều cột và thẻ từ điển hiện nhanh sau 0,3 giây rê chuột.

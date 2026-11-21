@@ -2,7 +2,7 @@
 
 Bộ gõ Hán Việt — Tác giả: Hue Hung, Claude & Gemini.
 
-Bản Android (`han-tu-ime.apk`) và bản Windows (`HanTuIME-win-Setup.exe`) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó.
+Bản Android (`han-tu-ime.apk`), bản Windows (`HanTuIME-win-Setup.exe`) và bản Linux (`HanTuIME-linux-x86_64.run`) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó.
 
 ## Font
 

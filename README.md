@@ -76,18 +76,21 @@ Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fci
 2. Mở tệp vừa tải. Nếu Windows SmartScreen cảnh báo tệp chưa ký số thương mại, bấm **Thông tin thêm (More info)** → **Vẫn chạy (Run anyway)**.
 3. Biểu tượng **漢 / V / E** xuất hiện ở khay hệ thống góc phải dưới: bấm chuột trái để đổi **Hán ↔ Việt**, chuột phải để mở menu hoặc **Cài đặt Bộ gõ Hán Việt**.
 
-### 3. Linux (`fcitx5` + GNOME `hanime-panel`)
+### 3. Linux (`fcitx5` · 64-bit `x86_64`)
 
-Yêu cầu hệ thống có sẵn `fcitx5`, trình biên dịch Rust/`g++`/`cmake`. Cài đặt gọn vào `~/.local` (không cần quyền `root`):
-
-```bash
-# Trong thư mục mã nguồn dự án:
-npm run ime:fcitx5:install   # cài addon fcitx5 + kho từ + ứng dụng hanime-settings
-npm run ime:panel:install    # (trên GNOME) cài khung chọn chữ & từ điển đồng bộ chủ đề
-fcitx5 -r                    # nạp lại fcitx5, sau đó thêm "Bộ gõ Hán Việt" trong fcitx5-configtool
-```
-
-Mở cài đặt bất kỳ lúc nào qua menu khay **Cài đặt Bộ gõ Hán Việt** hoặc lệnh `hanime-settings`.
+1. Cài sẵn **`fcitx5`** từ kho gói của bản phân phối nếu máy chưa có:
+   - **Arch / CachyOS / Manjaro:** `sudo pacman -S fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt`
+   - **Ubuntu / Debian / Linux Mint:** `sudo apt install fcitx5 fcitx5-config-qt fcitx5-frontend-gtk3 fcitx5-frontend-gtk4 fcitx5-frontend-qt5`
+   - **Fedora:** `sudo dnf install fcitx5 fcitx5-configtool fcitx5-autostart`
+2. Tải và chạy bộ cài tự bung [**`HanTuIME-linux-x86_64.run`**](../../releases/latest/download/HanTuIME-linux-x86_64.run) *(cài gọn vào `~/.local`, không cần quyền `root`; kèm đủ kho từ, phông chữ Hán, ứng dụng `hanime-settings` và tiện ích GNOME 45+)*:
+   ```bash
+   curl -fL https://github.com/GksanX/han-tu-keyboard/releases/latest/download/HanTuIME-linux-x86_64.run -o /tmp/hanime.run && bash /tmp/hanime.run
+   ```
+   *(Nếu máy bạn dùng phiên bản thư viện `fcitx5` khác bản dựng sẵn, bộ cài tự động liên kết lại tại chỗ qua `g++` + `pkg-config`.)*
+3. Mở **`fcitx5-configtool`**, tìm và thêm **Bộ gõ Hán Việt** vào danh sách bộ gõ.
+   - **Trên GNOME (Wayland):** tiện ích bảng chọn chữ & thẻ từ điển `hanime-panel@hantu` được bật tự động — hãy **đăng xuất rồi đăng nhập lại một lần** để GNOME nạp tiện ích.
+   - **Mở cài đặt:** qua menu ứng dụng **Bộ gõ Hán Việt – Cài đặt**, menu khay `fcitx5`, hoặc lệnh `~/.local/bin/hanime-settings`.
+   - **Gỡ cài đặt:** chạy `~/.local/bin/hanime-uninstall` (hoặc `bash /tmp/hanime.run --uninstall`).
 
 ---
 
