@@ -1,8 +1,8 @@
 # Giấy phép và ghi công
 
-Bộ gõ Hán, tác giả: Hue Hung and Claude.
+Bộ gõ Hán Việt — Tác giả: Hue Hung, Claude & Gemini.
 
-Bản Android (`han-tu-ime.apk`) và bản Windows (`HanTuIME-win-Setup.exe`, `han-tu-ime-windows.zip`) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó.
+Bản Android (`han-tu-ime.apk`) và bản Windows (`HanTuIME-win-Setup.exe`) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó.
 
 ## Font
 
@@ -53,6 +53,6 @@ quote, syn). Danh sách lấy từ `cargo metadata` của bản 0.2.0.
 
 ### Bản Windows
 
-- **Giao diện cài đặt:** dùng [Slint](https://slint.dev) 1.19 theo giấy phép [Slint Royalty-free Desktop, Mobile, and Web Applications License 2.0](https://slint.dev/royalty-free-license) (`LicenseRef-Slint-Royalty-free-2.0`, có kèm mục `AboutSlint` trong tab Hệ thống).
+- **Giao diện cài đặt:** dùng [Slint](https://slint.dev) 1.19 theo giấy phép [Slint Royalty-free Desktop, Mobile, and Web Applications License 2.0](https://slint.dev/royalty-free-license) (`LicenseRef-Slint-Royalty-free-2.0`, có kèm mục `AboutSlint` trong tab Thông tin).
 - **Bộ cài và tự cập nhật:** dùng [Velopack](https://velopack.io) 1.2.161 theo giấy phép [MIT](https://opensource.org/license/mit).
 - **Thư viện hệ thống và phụ trợ Rust:** dùng `windows` / `windows-*` (MIT OR Apache-2.0) cùng các thư viện đồ họa, văn bản, mạng và nén phụ trợ của Slint và Velopack theo các giấy phép mã nguồn mở: MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, Zlib, Unicode-3.0, Unlicense, 0BSD, BSL-1.0, CC0-1.0 và CDLA-Permissive-2.0.
