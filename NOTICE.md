@@ -1,8 +1,8 @@
 # Giấy phép và ghi công
 
-Bộ gõ Hán (Android), tác giả: Hue Hung and Claude.
+Bộ gõ Hán, tác giả: Hue Hung and Claude.
 
-Tệp APK có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó.
+Bản Android (tệp APK) có kèm các phần dưới đây, mỗi phần theo giấy phép riêng của nó. Bản Windows chưa phát hành; danh sách thư viện của bản đó sẽ bổ sung khi phát hành.
 
 ## Font
 
