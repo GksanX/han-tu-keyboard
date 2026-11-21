@@ -1,9 +1,13 @@
 # Bộ gõ Hán
 
-Bàn phím Android gõ chữ Hán bằng âm Hán-Việt (kiểu Telex) và Pinyin trong cùng một dòng, xen tiếng Việt thoải mái.
-Ra cả Phồn thể lẫn Giản thể, có từ điển gọn ngay trên bàn phím.
+Bộ gõ chữ Hán đa nền tảng (**Android**, **Windows**, **Linux fcitx5**) dùng âm Hán-Việt (kiểu Telex) và Pinyin trong cùng một dòng, xen tiếng Việt thoải mái.
+Ra cả Phồn thể lẫn Giản thể, có từ điển gọn đi kèm.
 
 Phi lợi nhuận, miễn phí, không quảng cáo, không thu thập dữ liệu. Tác giả: Hue Hung and Claude.
+
+Kho công khai này là nơi phát hành và lưu tài liệu chung cho các bản **Bộ gõ Hán**:
+- **Android:** đã phát hành (xem mục [Releases](../../releases/latest)).
+- **Windows / Linux (`fcitx5` + `hanime-panel`):** phát triển chung một lõi Rust; gói cài Windows và bản cập nhật sẽ phát hành hợp nhất tại đây từ đợt phát hành chung tiếp theo để không làm gián đoạn cập nhật của bản Android.
 
 ## Tính năng
 
