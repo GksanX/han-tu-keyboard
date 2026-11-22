@@ -50,7 +50,7 @@ Bản quyền: wordfreq © 2022 Robyn Speer; THUOCL © 2018 THUNLP; phrase-pinyi
 Lõi bộ gõ viết bằng Rust, dùng các thư viện mã nguồn mở theo giấy phép MIT, Apache-2.0, Zlib và Unicode-3.0:
 bytes, cesu8, cfg-if, combine, equivalent, foldhash, hashbrown, indexmap, itoa, jni, jni-sys, log, memchr, serde,
 serde_json, thiserror, tinyvec, unicode-ident, unicode-normalization, zmij (cùng các thư viện dựng mã proc-macro2,
-quote, syn). Danh sách kiểm kê đến bản 0.2.9.
+quote, syn). Danh sách kiểm kê đến bản 0.2.10.
 
 ### Bản Linux (`HanTuIME-linux-x86_64.run`)
 
@@ -60,6 +60,6 @@ quote, syn). Danh sách kiểm kê đến bản 0.2.9.
 
 ### Bản Windows
 
-- **Giao diện cài đặt:** dùng [Slint](https://slint.dev) 1.19 theo giấy phép [Slint Royalty-free Desktop, Mobile, and Web Applications License 2.0](https://slint.dev/royalty-free-license) (`LicenseRef-Slint-Royalty-free-2.0`, có kèm mục `AboutSlint` trong tab Thông tin).
+- **Giao diện cài đặt:** dùng [Slint](https://slint.dev) 1.19 theo giấy phép [Slint Royalty-free Desktop, Mobile, and Web Applications License 2.0](https://slint.dev/royalty-free-license) (`LicenseRef-Slint-Royalty-free-2.0`, có kèm mục `AboutSlint` trong mục Hệ thống).
 - **Bộ cài và tự cập nhật:** dùng [Velopack](https://velopack.io) 1.2.161 theo giấy phép [MIT](https://opensource.org/license/mit).
 - **Thư viện hệ thống và phụ trợ Rust:** dùng `windows` / `windows-*` (MIT OR Apache-2.0) cùng các thư viện đồ họa, văn bản, mạng và nén phụ trợ của Slint và Velopack theo các giấy phép mã nguồn mở: MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, Zlib, Unicode-3.0, Unlicense, 0BSD, BSL-1.0, CC0-1.0 và CDLA-Permissive-2.0.

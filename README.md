@@ -25,10 +25,10 @@ Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fci
 ![Bảng chọn chữ nhiều cột và thẻ từ điển tra nhanh](images/candidate-dict.png)
 *Bảng chọn chữ 2 cột (tùy chỉnh 1–4 cột) cùng thẻ từ điển chi tiết khi rê chuột dừng 0,3 giây trên máy tính hoặc bấm giữ trên điện thoại: hiện bộ thủ, số nét, lục thư, nghĩa, nguồn gốc chữ và từ ghép liên quan.*
 
-| Cửa sổ cài đặt chung (Windows & Linux) | 3 chủ đề đồng bộ Sáng / Tối |
+| Cửa sổ cài đặt chung (Windows & Linux) | Bố cục lưới & 3 tông nhấn Sáng / Tối |
 |---|---|
-| ![Cửa sổ cài đặt cơ bản](images/settings-basic.png) | ![3 chủ đề Phật Quang, Dấu Son, Thiền Ngọc](images/settings-themes.png) |
-| *Chỉnh nhanh Phồn/Giản, Thế mặc định, số ô gợi ý, số cột và quy tắc gõ.* | *3 chủ đề **Phật Quang**, **Dấu Son**, **Thiền Ngọc** tự phóng chữ khi kéo giãn cửa sổ.* |
+| ![Cửa sổ cài đặt cơ bản](images/settings-basic.png) | ![Bố cục lưới và 3 tông màu nhấn](images/settings-themes.png) |
+| *Tự động lưu tức thì khi chỉnh Phồn/Giản, Thế mặc định và quy tắc gõ.* | *Chỉnh số ô, số cột, Sáng / Tối và 3 tông nhấn **Vàng ấm**, **Đỏ trầm**, **Xanh đá**.* |
 
 ---
 
@@ -72,9 +72,9 @@ Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fci
 
 ### 2. Windows (Windows 10 / 11 — 64-bit)
 
-1. Tải bộ cài [**`HanTuIME-win-Setup.exe`**](../../releases/latest/download/HanTuIME-win-Setup.exe) (hoặc xem tại mục [Releases](../../releases/latest)) — *cài theo tài khoản người dùng, không cần quyền quản trị, hỗ trợ tự kiểm tra cập nhật*.
+1. Tải bộ cài [**`HanTuIME-win-Setup.exe`**](../../releases/latest/download/HanTuIME-win-Setup.exe) (hoặc xem tại mục [Releases](../../releases/latest)) — *cài theo tài khoản người dùng, không cần quyền quản trị, tự tạo lối tắt ngoài Desktop và hỗ trợ tự kiểm tra cập nhật*.
 2. Mở tệp vừa tải. Nếu Windows SmartScreen cảnh báo tệp chưa ký số thương mại, bấm **Thông tin thêm (More info)** → **Vẫn chạy (Run anyway)**.
-3. Biểu tượng **漢 / V / E** xuất hiện ở khay hệ thống góc phải dưới: bấm chuột trái để đổi **Hán ↔ Việt**, chuột phải để mở menu hoặc **Cài đặt Bộ gõ Hán Việt**.
+3. Biểu tượng **漢 / V / E** xuất hiện ở khay hệ thống góc phải dưới: bấm chuột trái để đổi **Hán ↔ Việt** (ở Thế Việt gõ thẳng tại con trỏ như UniKey), chuột phải để mở menu hoặc **Cài đặt Bộ gõ Hán Việt**.
 
 ### 3. Linux (`fcitx5` · 64-bit `x86_64`)
 

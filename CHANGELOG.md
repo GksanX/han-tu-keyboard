@@ -1,5 +1,13 @@
 # Lịch sử thay đổi
 
+## 0.2.10
+
+- Làm mới toàn bộ giao diện trên máy tính theo phong cách phẳng, sáng rõ, dễ đọc ở cả chế độ Sáng và Tối với 3 tông màu nhấn Vàng ấm, Đỏ trầm, Xanh đá; mọi tùy chỉnh tự động lưu và áp dụng ngay.
+- Ở Thế Việt trên Windows, chữ tiếng Việt được gõ trực tiếp tại con trỏ như bộ gõ thông thường (không hiện bảng nổi, không nhảy chữ trên thanh địa chỉ trình duyệt hay bảng tính Excel).
+- Phím Enter và Shift + Enter ở Thế Việt trên cả điện thoại lẫn máy tính giữ nguyên chữ tiếng Việt có dấu rồi gửi tin nhắn hoặc xuống dòng ngay từ lần bấm đầu tiên.
+- Bảng chọn chữ Hán và thẻ từ điển tự động né sang bên cạnh khi gõ trong thanh Tìm kiếm hoặc Start Menu của Windows 11, ẩn gọn khi gõ từ tiếng Anh chưa khớp chữ Hán.
+- Bộ cài máy tính tự tạo lối tắt ngoài màn hình Desktop (tự dọn sạch khi gỡ ứng dụng); bổ sung tùy chọn chạy với quyền Quản trị trên Windows khi cần gõ trong ứng dụng hệ thống và giữ ổn định bộ gõ khi cập nhật trên Linux.
+
 ## 0.2.9
 
 - Chuẩn hóa chính tả i / y trong âm Hán-Việt (tỉ ~ tỷ, kì ~ kỳ, yên ~ iên) và nhận đủ thanh điệu Pinyin trên chữ m / n (ń, ň, ǹ, ḿ), đạt mức 0 chữ bỏ sót trong toàn bộ 40.912 chữ đơn.
