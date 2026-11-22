@@ -1,5 +1,13 @@
 # Lịch sử thay đổi
 
+## 0.2.9
+
+- Chuẩn hóa chính tả i / y trong âm Hán-Việt (tỉ ~ tỷ, kì ~ kỳ, yên ~ iên) và nhận đủ thanh điệu Pinyin trên chữ m / n (ń, ň, ǹ, ḿ), đạt mức 0 chữ bỏ sót trong toàn bộ 40.912 chữ đơn.
+- Mở rộng kho từ lên 40.912 chữ đơn, 158.672 từ ghép và 151.865 mục từ điển chi tiết (bổ sung 波羅蜜多, 般若波羅蜜多, 三藐三菩提, 比丘, 比丘尼 và biến âm Phật học / Nam Bộ như đỉnh ~ đảnh, chân ~ chơn, thịnh ~ thạnh, tỉ ~ tỳ).
+- Hiển thị thêm nghĩa Phật học chuyên sâu ngay cả với những thuật ngữ đã có giải nghĩa phổ thông (như 因緣, 般若, 菩提, 涅槃, 慈悲) và chuẩn hóa khoảng cách dấu ngoặc.
+- Sửa lỗi đồng bộ và lưu cấu hình số thanh Pinyin, thế gõ mặc định, màu viền cửa sổ theo 3 chủ đề trên Windows, dọn tiến trình con fcitx5 và bảo toàn phông chữ GNOME / trạng thái Kimpanel khi cài hoặc gỡ trên Linux.
+- Cải thiện hiển thị ghi chú cập nhật và mục báo lỗi trên Android.
+
 ## 0.2.8
 
 - Bổ sung giải nghĩa tiếng Việt súc tích cho **18.320** thuật ngữ Phật học ngay trên dòng ứng viên và thẻ từ điển (**149.067** mục từ điển chi tiết).

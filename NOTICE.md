@@ -50,7 +50,13 @@ Bản quyền: wordfreq © 2022 Robyn Speer; THUOCL © 2018 THUNLP; phrase-pinyi
 Lõi bộ gõ viết bằng Rust, dùng các thư viện mã nguồn mở theo giấy phép MIT, Apache-2.0, Zlib và Unicode-3.0:
 bytes, cesu8, cfg-if, combine, equivalent, foldhash, hashbrown, indexmap, itoa, jni, jni-sys, log, memchr, serde,
 serde_json, thiserror, tinyvec, unicode-ident, unicode-normalization, zmij (cùng các thư viện dựng mã proc-macro2,
-quote, syn). Danh sách lấy từ `cargo metadata` của bản 0.2.0.
+quote, syn). Danh sách kiểm kê đến bản 0.2.9.
+
+### Bản Linux (`HanTuIME-linux-x86_64.run`)
+
+- **Addon Fcitx5 (`libhanime.so`)**: viết bằng C++20 liên kết tĩnh với lõi Rust (`libhan_ime_ffi.a`) và giao tiếp qua thư viện `Fcitx5Core` / `Fcitx5Utils` (LGPL-2.1-or-later).
+- **Cửa sổ cài đặt (`hanime-settings`)**: dùng chung giao diện [Slint](https://slint.dev) 1.19 (`LicenseRef-Slint-Royalty-free-2.0`) và lõi Rust (`MIT OR Apache-2.0`).
+- **Tiện ích GNOME Shell (`hanime-panel@hantu`)**: phát triển từ `gnome-shell-extension-kimpanel` theo giấy phép [GPL-2.0-or-later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) (xem toàn văn tại `hanime-panel@hantu/LICENSE`).
 
 ### Bản Windows
 
