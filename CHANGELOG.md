@@ -1,5 +1,12 @@
 # Lịch sử thay đổi
 
+## 0.2.11
+
+- Mở rộng kho dữ liệu đi kèm lên 40.912 chữ đơn, 167.115 từ ghép và 160.401 mục từ điển chi tiết.
+- Đồng bộ kho Đại Từ Điển Phật Học đã biên tập và kiểm định sâu: 30.655 cụm từ Phật học (từ 2 đến 9 chữ như 阿耨多羅三藐三菩提, 般若波羅蜜多心經, 觀世音菩薩普門品), 30.793 mục từ ghép và 610 chữ đơn có lời giải tiếng Việt súc tích, không còn mục chờ biên tập bổ sung.
+- Hiển thị thêm nguyên ngữ Phạm / Pāli ngay trên dòng thông tin của thẻ từ điển cho các thuật ngữ Phật học có đối chiếu cổ ngữ.
+- Bổ sung Pinyin, dạng Giản thể và thu gọn phông chữ dự phòng Jigmo bao phủ toàn bộ kho từ mới.
+
 ## 0.2.10
 
 - Làm mới toàn bộ giao diện trên máy tính theo phong cách phẳng, sáng rõ, dễ đọc ở cả chế độ Sáng và Tối với 3 tông màu nhấn Vàng ấm, Đỏ trầm, Xanh đá; mọi tùy chỉnh tự động lưu và áp dụng ngay.

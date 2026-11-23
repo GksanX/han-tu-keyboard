@@ -21,7 +21,7 @@ Jigmo đi kèm đã được thu gọn, chỉ giữ những chữ có trong kho 
 - **[Unihan](https://www.unicode.org/charts/unihan.html)** (Unicode, Inc.): [Unicode License v3](https://www.unicode.org/license.txt).
   Dùng cho âm đọc, bộ thủ và số nét.
 - Âm Hán-Việt, nghĩa chữ đơn, lục thư và nguồn gốc chữ: kho từ điển của dự án Hán Tự.
-- Thuật ngữ và tóm tắt nghĩa Phật học: tổng hợp và biên tập rút gọn từ *Phật Quang Đại Từ Điển* (HT. Thích Quảng Độ dịch) và *Từ điển Tổng hợp Phật học* phục vụ mục đích học tập, tra cứu phi lợi nhuận.
+- Thuật ngữ và tóm tắt nghĩa Phật học: tổng hợp và biên tập rút gọn từ *Phật Quang Đại Từ Điển* (HT. Thích Quảng Độ dịch), *Từ điển Tổng hợp Phật học*, và tư liệu Phật học Hán ngữ mở CBETA / Đinh Phúc Bảo / Trần Nghĩa Hiếu phục vụ mục đích học tập, tra cứu phi lợi nhuận.
 
 ### Dữ liệu tiếng Trung cho Pinyin
 
@@ -50,7 +50,7 @@ Bản quyền: wordfreq © 2022 Robyn Speer; THUOCL © 2018 THUNLP; phrase-pinyi
 Lõi bộ gõ viết bằng Rust, dùng các thư viện mã nguồn mở theo giấy phép MIT, Apache-2.0, Zlib và Unicode-3.0:
 bytes, cesu8, cfg-if, combine, equivalent, foldhash, hashbrown, indexmap, itoa, jni, jni-sys, log, memchr, serde,
 serde_json, thiserror, tinyvec, unicode-ident, unicode-normalization, zmij (cùng các thư viện dựng mã proc-macro2,
-quote, syn). Danh sách kiểm kê đến bản 0.2.10.
+quote, syn). Danh sách kiểm kê đến bản 0.2.11.
 
 ### Bản Linux (`HanTuIME-linux-x86_64.run`)
 
