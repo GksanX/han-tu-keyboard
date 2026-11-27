@@ -1,10 +1,10 @@
 # Bộ gõ Hán Việt
 
-Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fcitx5`**) cho phép gõ **âm Hán-Việt (Telex)**, **Pinyin** và **tiếng Việt** mượt mà ngay trên cùng một dòng mà không cần chuyển bộ gõ. Hỗ trợ cả **Phồn thể** lẫn **Giản thể**, tích hợp từ điển chiết tự và thuật ngữ Phật học ngay tại con trỏ.
+Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fcitx5`**) cho phép gõ **âm Hán-Việt (Telex)**, **Pinyin** (hỗ trợ giản bính, ghép liền câu, âm mơ hồ 7 cặp) và **tiếng Việt** mượt mà ngay trên cùng một dòng mà không cần chuyển bộ gõ. Hỗ trợ cả **Phồn thể** lẫn **Giản thể**, **viết tay bút lông ngoại tuyến** trên Android, cùng từ điển chiết tự và thuật ngữ Phật học ngay tại con trỏ.
 
-- **Kho dữ liệu đi kèm:** `40.912` chữ đơn · `167.115` từ ghép · `160.401` mục giải nghĩa chi tiết.
+- **Tra cứu tích hợp:** Từ điển chữ Hán, từ ghép thông dụng, chiết tự và thuật ngữ Phật học tra ngay trên máy.
 - **Nguyên tắc:** Phi lợi nhuận · Miễn phí · Không quảng cáo · Chạy 100% ngoại tuyến, không thu thập dữ liệu.
-- **Tác giả:** Hue Hung, Claude & Gemini · **Trang chính:** [hantu.wiki](https://hantu.wiki) · **Trang tải:** [hantu.wiki/bo-go](https://hantu.wiki/bo-go)
+- **Tác giả:** Hue Hung, Claude & Gemini · **Trang chính:** [hantu.wiki](https://hantu.wiki) · **Trang tải:** [hantu.wiki/bo-go](https://hantu.wiki/bo-go) · **Thư viện kinh điển:** [Thư Viện Pháp Bảo (Beta)](https://thu-vien-phap-bao.pages.dev/)
 
 ---
 
@@ -16,6 +16,7 @@ Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fci
 | `nhanduyen` + `Space` | **因緣** | Gõ liền cả cụm, tự tách âm và đưa từ ghép lên đầu |
 | `batnha` + `Space` | **般若** | Tích hợp từ vựng thông dụng và thuật ngữ Phật học |
 | `xuexi` / `duibuqi` | **學習** / **對不起** | Pinyin xếp theo tần suất hiện đại (tự theo Phồn/Giản) |
+| `zg` / `woxiangquzhongguo` | **中國** / **我想去中國** | Giản bính Pinyin, tự ghép câu dài & tùy chọn âm mơ hồ 7 cặp |
 | `của người xưa` | **của người xưa** | Từ tiếng Việt không khớp chữ Hán hoặc đang trong mạch câu Việt |
 
 ---
@@ -48,13 +49,15 @@ Bộ gõ chữ Hán đa nền tảng (**Android** · **Windows** · **Linux `fci
 | `Numpad` / `Alt + 1…5` | Đặt thanh điệu Pinyin ngay sau âm tiết (`5` hoặc `0` = thanh nhẹ) |
 | `Ctrl + Shift + Space` | Bật / tắt chế độ dùng hàng phím số `1–5` gõ thanh điệu Pinyin |
 | `Ctrl + Alt + Space` | Tạm tắt / bật lại bộ gõ (**EN** — gõ trực tiếp tiếng Anh, lập trình) |
+| `'` (nháy đơn) | Tách âm Pinyin khi mơ hồ (`xi'an`); bật **Âm mơ hồ 7 cặp** & **Mạch tiếng Việt** trong Cài đặt |
 
 ### Trên điện thoại Android
 
 - **Phím đổi thế:** chạm để đổi **Latin ↔ Chữ Hán**; bấm giữ để đổi **Vi ↔ EN** (ở Latin) hoặc **Phồn ↔ Giản** (ở chữ Hán).
-- **Thanh gợi ý 3 tầng:** hiện đồng thời âm Hán-Việt, chữ Hán (font Khải thư *LXGW WenKai* + *Jigmo*) và Pinyin; chạm nút `▾` để mở lưới rộng, gạt **Chỉ Pinyin** nếu không dùng Hán-Việt.
+- **Thanh gợi ý 3 tầng gọn một hàng:** hiện đồng thời âm Hán-Việt, chữ Hán (font Khải thư *LXGW WenKai* + *Jigmo*) và Pinyin; chạm **`⚙`** góc phải để mở nhanh *Phồn ↔ Giản*, *Chỉ Pinyin*, *Âm mơ hồ* (khi đang gõ chuyển thành nút tách âm `'` và mở lưới `▾`).
+- **Viết tay bút lông ngoại tuyến (`✎ Vẽ`):** chạm góc trái thanh gợi ý để viết hơn 9.500 chữ Hán trên giấy điền tự cách (nhận cả sai thứ tự hoặc thiếu/thừa nét), tự chỉnh cỡ ngòi theo màn hình kèm 3 mức *Mảnh · Vừa · Đậm*.
 - **Tra từ điển ngay trên phím:** bấm giữ một ô gợi ý để xem bộ thủ, số nét, lục thư, nghĩa, nguồn gốc chữ và chiết tự từng chữ.
-- **Pinyin có dấu & dấu câu Trung văn:** bấm giữ `a e i o u v` để chọn `ā á ǎ à, ü`; trang ký hiệu riêng `。，、「」『』《》…`.
+- **Pinyin có dấu & dấu câu Trung văn:** bấm giữ `a e i o u v` để chọn `ā á ǎ à, ü`; dấu câu nhanh trên thanh gợi ý lúc rảnh và trang ký hiệu riêng `。，、「」『』《》…`.
 
 ---
 

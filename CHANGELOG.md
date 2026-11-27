@@ -1,5 +1,14 @@
 # Lịch sử thay đổi
 
+## 0.2.12
+
+- **Nâng cấp lớn cho Pinyin trên cả Android, Windows và Linux:** hỗ trợ giản bính (`zg` → 中國, `wsm` → 為什麼, `nhao` → 你好), ghép câu dài thông minh theo ngữ cảnh (`woxiangquzhongguo` → 我想去中國), tự học cụm từ người dùng hay chọn và tùy chọn **Âm mơ hồ Pinyin** (7 cặp `zh/z`, `ch/c`, `sh/s`, `an/ang`, `en/eng`, `in/ing`, `n/l`) mà vẫn bảo toàn nguyên xếp hạng Hán-Việt Telex.
+- **Viết tay chữ Hán bút lông ngoại tuyến trên Android:** chạm `✎ Vẽ` góc trái thanh gợi ý để viết tay hơn 9.500 chữ Hán ngay trên giấy điền tự cách (nhận cả sai thứ tự hoặc thiếu/thừa nét), ngòi bút thư pháp tự thích nghi màn hình kèm 3 mức Mảnh · Vừa · Đậm.
+- **Gom gọn thanh đề xuất Android (62dp, không giật khung):** gộp bảng tùy chọn vào góc `⚙` bên phải (`Phồn/Giản ⇄`, `Chỉ Pinyin`, `Âm mơ hồ`), đồng bộ hai chiều với cửa sổ Cài đặt; bổ sung nút tách âm `'` ngay bên phải khi đang gõ và cập nhật hướng dẫn sử dụng.
+- Biên tập và chuốt lại toàn bộ phần tóm tắt chữ đơn và thuật ngữ Phật học: đưa nghĩa cốt lõi lên đầu, lược bỏ các đoạn trích dẫn dài và mục đồng âm lẫn chữ.
+- Tối ưu đóng gói và bảo vệ dữ liệu từ điển đi kèm, giúp dữ liệu trên máy gọn nhẹ hơn và vẫn mở tra tức thì.
+- Khắc phục lỗi cắt lửng ký tự số La Mã ở cuối tóm tắt ngắn trên thẻ từ điển tra nhanh.
+
 ## 0.2.11
 
 - Mở rộng kho dữ liệu đi kèm lên 40.912 chữ đơn, 167.115 từ ghép và 160.401 mục từ điển chi tiết.

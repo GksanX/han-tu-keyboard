@@ -50,7 +50,7 @@ Bản quyền: wordfreq © 2022 Robyn Speer; THUOCL © 2018 THUNLP; phrase-pinyi
 Lõi bộ gõ viết bằng Rust, dùng các thư viện mã nguồn mở theo giấy phép MIT, Apache-2.0, Zlib và Unicode-3.0:
 bytes, cesu8, cfg-if, combine, equivalent, foldhash, hashbrown, indexmap, itoa, jni, jni-sys, log, memchr, serde,
 serde_json, thiserror, tinyvec, unicode-ident, unicode-normalization, zmij (cùng các thư viện dựng mã proc-macro2,
-quote, syn). Danh sách kiểm kê đến bản 0.2.11.
+quote, syn). Danh sách kiểm kê đến bản 0.2.12.
 
 ### Bản Linux (`HanTuIME-linux-x86_64.run`)
 
